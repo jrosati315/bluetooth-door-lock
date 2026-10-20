@@ -1,0 +1,17 @@
+# Build output
+build/
+*.elf
+*.bin
+*.hex
+*.o
+*.a
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+secrets.h
+arduino_secrets.h
+.vscode/
+.DS_Store
+Thumbs.db
